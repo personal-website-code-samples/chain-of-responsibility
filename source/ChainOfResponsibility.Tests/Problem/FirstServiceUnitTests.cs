@@ -25,6 +25,7 @@
         {
             var result = _firstService.DoSomething(new Widget());
 
+            Assert.IsNotNull(result);
             // Assert that my function did something correctly.
         }
     }
